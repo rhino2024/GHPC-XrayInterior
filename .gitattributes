@@ -1,0 +1,8 @@
+* text=auto
+
+# build.sh is run with bash; CRLF checkout would break it
+*.sh    text eol=lf
+*.cs    text
+*.md    text
+*.txt   text
+LICENSE text
